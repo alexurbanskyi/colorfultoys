@@ -10,8 +10,10 @@ function Layout() {
     <div className='main'>
       <Header/>
       <div className='layout'>
-         <SideBar/>
-         <Outlet/>
+          <SideBar/>
+          <div className='outlet'>
+            <Outlet />
+          </div>
       </div>
       <Footer/>
     </div>

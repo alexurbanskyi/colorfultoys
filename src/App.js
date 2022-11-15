@@ -3,6 +3,7 @@ import './App.css';
 import Layout from './components/Layout/Layout';
 
 import Dino from './screens/Dino/Dino';
+import Flowers from './screens/Flowers/Flowers';
 import Fly from './screens/Fly/Fly';
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
       <div className="App">
         <Routes>
           <Route path='/' element={<Layout/>}>
-            <Route path='dino' element={<Dino/>}/>
+            <Route index element={<Dino/>}/>
             <Route path='fly' element={<Fly/>}/>
+            <Route path='flowers' element={<Flowers/>}/>
           </Route>
         </Routes>
       </div>

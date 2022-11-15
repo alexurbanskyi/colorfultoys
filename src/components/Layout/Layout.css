@@ -9,3 +9,11 @@
    display: flex;
    flex-grow: 1;
 }
+.outlet{
+   flex-grow: 1;
+   background-color: rgb(54, 47, 47);
+   color: azure;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
