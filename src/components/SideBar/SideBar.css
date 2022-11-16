@@ -3,6 +3,12 @@
    padding: 20px;
    display: flex;
    flex-direction: column;
+   align-items: center;
+}
+.sidebar-title{
+   color: rgb(68, 10, 10);
+   font-size: 20px;
+   font-weight: 800;
 }
 .nav{
    flex-grow: 1;
