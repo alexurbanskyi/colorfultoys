@@ -5,7 +5,7 @@ import './SideBar.css'
 function SideBar() {
   return (
    <div className='sidebar'>
-      <div className='sidebar-title'>Каталог</div>
+      {/* <div className='sidebar-title'>Каталог</div> */}
       <nav className='nav'>
         <div className='nav-list'>
           <NavLink className='link' to='/'>DINO</NavLink>
