@@ -1,5 +1,7 @@
 .header {
-   background-color: rgb(105, 247, 247);
+   /* background-color: rgb(105, 247, 247); */
    text-align: center;
    padding: 10px;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
