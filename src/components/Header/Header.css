@@ -4,4 +4,10 @@
    padding: 10px;
    background-repeat: no-repeat;
    background-size: cover;
+   position: relative;
+}
+.basket{
+   position: absolute;
+   right: 20px;
+   top: 25px;
 }

@@ -10,9 +10,9 @@
    flex-grow: 1;
 }
 .outlet{
-   background-color: rgb(99, 60, 60); 
+   background-color: rgb(149, 94, 94); 
    color: rgb(10, 19, 19);
-   height: 83vh;
+   height: 81vh;
    width: 100%;
    overflow: scroll;
 }
