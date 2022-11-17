@@ -1,10 +1,10 @@
 .card{
    width: 200px;
    padding: 10px;
-   border: 2px solid rgb(4, 130, 247);
+   border: 2px solid rgb(2, 108, 2);
    border-radius: 10px;
    margin: 15px;
-   background-color: rgb(127, 195, 255);
+   background-color: rgb(10, 142, 60);
 }
 .card-title{
    font-size: 20px;
