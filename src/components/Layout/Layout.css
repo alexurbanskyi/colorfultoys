@@ -12,7 +12,7 @@
 .outlet{
    background-color: rgb(99, 60, 60); 
    color: rgb(10, 19, 19);
-   height: 85vh;
+   height: 83vh;
    width: 100%;
    overflow: scroll;
 }
