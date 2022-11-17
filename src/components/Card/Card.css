@@ -21,3 +21,23 @@
 .card-foto{
    width: 150px;
 }
+.add-item{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.item-pcs{
+   width: 30%;
+   background-color: rgb(156, 165, 233);
+   border-radius: 10px;
+   text-align: center;
+   padding: 5px 0;
+   margin: 0 10px;
+}
+.add-button{
+   background-color: rgb(188, 133, 217) ;
+   padding: 3px;
+   width: 30px;
+   border: none;
+   border-radius: 5px;   
+}

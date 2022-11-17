@@ -38,7 +38,7 @@ export const dino = [
     price: 25,
   },
   {
-    id: 1,
+    id: 4,
     name: 't-rex',
     foto: dinoId1,
     size: {
@@ -48,29 +48,7 @@ export const dino = [
     discription: 'prity dino figure! Very interesting for your kid! ...',
     price: 15,
   },
-  {
-    id: 2,
-    name: 'diplo',
-    foto: dinoId2,
-    size: {
-      width: 30,
-      hight: 15
-    },
-    discription: 'prity dino figure! Very interesting for your kid! ...',
-    price: 25,
-  },
-  {
-   id: 3,
-   name: 'diplo',
-   foto: dinoId2,
-   size: {
-     width: 30,
-     hight: 15
-   },
-   discription: 'prity dino figure! Very interesting for your kid! ...',
-   price: 25,
- }
- ]
+  ]
 
 
 

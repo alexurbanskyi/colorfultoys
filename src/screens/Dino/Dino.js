@@ -8,7 +8,7 @@ function Dino() {
   return (
     <div className='dino'>
       {
-        dino.map((item) => <Card data = {item}/>)
+        dino.map((item) => <Card  key={item.id} data = {item}/>)
       }
     </div>
   )

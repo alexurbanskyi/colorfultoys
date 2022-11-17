@@ -7,7 +7,7 @@ function Fly() {
   return (
     <div className='fly'>
       {
-        fly.map((item) => <Card data = {item}/>)
+        fly.map((item) => <Card key={item.id} data = {item}/>)
       }
     </div>
   )
