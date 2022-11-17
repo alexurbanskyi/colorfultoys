@@ -27,7 +27,13 @@
    color: palevioletred;
    padding: 5px;
    text-align: center;
+   margin: 10px 0px;
 }
 .active{
-   background-color: rgb(70, 165, 225);
+   background-color: rgb(122, 204, 255);
+   border-radius: 15px;
+}
+.icon{
+   width: 55px;
+   height: 55px;
 }
