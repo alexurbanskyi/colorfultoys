@@ -1,15 +1,15 @@
 .sidebar{
-   /* background-color: rgb(247, 247, 161); */
+   background-color: rgb(159, 161, 0);
    padding: 20px;
    display: flex;
    flex-direction: column;
    align-items: center;
 }
-.sidebar-title{
+/* .sidebar-title{
    color: rgb(68, 10, 10);
    font-size: 20px;
    font-weight: 800;
-}
+} */
 .nav{
    flex-grow: 1;
    display: flex;
@@ -30,7 +30,7 @@
    margin: 10px 0px;
 }
 .active{
-   background-color: rgb(122, 204, 255);
+   background-color: rgb(215, 219, 6);
    border-radius: 15px;
 }
 .icon{

@@ -5,7 +5,8 @@ import flyId1 from '../images/fly/flyId1.jpg'
 
 export const dino = [
    {
-     id: 1,
+     id: 'dino1',
+     type: 'dino',
      name: 't-rex',
      foto: dinoId1,
      size: {
@@ -16,7 +17,8 @@ export const dino = [
      price: 15,
    },
    {
-     id: 2,
+     id: 'dino2',
+     type: 'dino',
      name: 'diplo',
      foto: dinoId2,
      size: {
@@ -27,7 +29,8 @@ export const dino = [
      price: 25,
    },
    {
-    id: 3,
+    id: 'dino3',
+    type: 'dino',
     name: 'diplo',
     foto: dinoId2,
     size: {
@@ -38,7 +41,8 @@ export const dino = [
     price: 25,
   },
   {
-    id: 4,
+    id: 'dino4',
+    type: 'dino',
     name: 't-rex',
     foto: dinoId1,
     size: {
@@ -54,7 +58,8 @@ export const dino = [
 
  export const fly = [
   {
-    id: 1,
+    id: 'fly1',
+    type: 'fly',
     name: 'bee',
     foto: flyId1,
     size: {
@@ -65,7 +70,8 @@ export const dino = [
     price: 25,
   },
   {
-    id: 2,
+    id: 'fly2',
+    type: 'fly',
     name: 'butterfly',
     foto: flyId1,
     size: {
@@ -76,3 +82,5 @@ export const dino = [
     price: 25,
   }
  ]
+
+ export const dataToy = [...fly, ...dino]

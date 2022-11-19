@@ -1,13 +1,12 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './Card.css'
-
-
 
 function Card({data}) {
 
-  const [pcs, setPcs] = useState(1)
-  
-  return (
+   const [pcs, setPcs] = useState(1)
+
+   return (
    <div className='card'>
       <div className='card-title'>{data.name}</div>
       <div className='foto-holder'>
@@ -24,6 +23,14 @@ function Card({data}) {
          >-</button>
          <div className='item-pcs'>{pcs}</div>
          <button className='add-button'onClick={() => setPcs((prev)=> prev + 1)}>+</button>
+      </div>
+      <div className='link-holder' >
+         <Link className='detail-link' to={`/details/${data.id}`}>опис</Link>  
+      </div>
+      <div className='link-holder' >
+         <div className='basket-link' onClick={() => console.log('ADD to basket')}>
+            додати у кошик 
+         </div>
       </div>
    </div>
   )

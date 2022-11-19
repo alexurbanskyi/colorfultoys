@@ -44,5 +44,32 @@
    border: none;
    border-radius: 5px;
    font-size: 20px; 
-   font-weight: bold;  
+   font-weight: bold; 
+   cursor: pointer; 
+}
+.link-holder{
+   display: flex;
+   justify-content: center;
+   margin: 10px 0;
+}
+.detail-link{
+   background-color: rgb(227, 227, 170);
+   border-radius: 5px;
+   padding: 5px;
+   text-align: center;
+   width: 80%;
+   text-decoration: none;
+   color: rgb(54, 37, 37);
+   font-weight: 800;
+}
+.basket-link{
+   background-color: rgb(126, 195, 103);
+   border-radius: 5px;
+   padding: 5px;
+   text-align: center;
+   width: 80%;
+   text-decoration: none;
+   color: rgb(54, 37, 37);
+   font-weight: 800;
+   cursor: pointer;
 }

@@ -11,7 +11,7 @@ function SideBar() {
       {/* <div className='sidebar-title'>Каталог</div> */}
       <nav className='nav'>
         <div className='nav-list'>
-          <NavLink className='link' to='/'><img className='icon' src={dino}/></NavLink>
+          <NavLink className='link' to='dino'><img className='icon' src={dino}/></NavLink>
           <NavLink className='link' to='fly'><img className='icon' src={fly}/></NavLink>
           <NavLink className='link' to='flowers'><img className='icon' src={flower}/></NavLink>
         </div>

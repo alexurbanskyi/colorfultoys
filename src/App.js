@@ -1,6 +1,7 @@
-import { Link, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Layout from './components/Layout/Layout';
+import Details from './screens/Details/Details';
 
 import Dino from './screens/Dino/Dino';
 import Flowers from './screens/Flowers/Flowers';
@@ -13,10 +14,11 @@ function App() {
       <div className="App">
         <Routes>
           <Route path='/' element={<Layout/>}>
-            <Route index element={<Dino/>}/>
+            <Route path='dino' element={<Dino/>}/>
             <Route path='fly' element={<Fly/>}/>
             <Route path='flowers' element={<Flowers/>}/>
           </Route>
+          <Route path='/details/:id' element={<Details/>}/>
         </Routes>
       </div>
     </>
