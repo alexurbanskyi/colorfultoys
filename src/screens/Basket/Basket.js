@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './Basket.css'
 
 function Basket({basketList}) {
@@ -32,7 +33,12 @@ function Basket({basketList}) {
         <div className='totalCoast'>Загальна сума - <span className='coast'>{totalCoast}</span> грн</div>
         </>
         :
-        <div>немає замовлень!</div>
+        <div className='empty-order'>
+          <div className='empty-order-title'>Ваша корзина замовлень пуста! Перейдить до каталогу!</div>
+          <div>
+            <Link className='empty-order-link' to='/dino'> ДО КАТАЛОГУ</Link>
+          </div>
+        </div>
       }
 
 
