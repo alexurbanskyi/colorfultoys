@@ -2,9 +2,13 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Card.css'
 
-function Card({data}) {
+function Card({data, setBasketList}) {
 
    const [pcs, setPcs] = useState(1)
+
+   function addToBasket(item){
+      setBasketList((prev) => [...prev, {...item, pcs: pcs}])
+   }
 
    return (
    <div className='card'>
@@ -28,7 +32,7 @@ function Card({data}) {
          <Link className='detail-link' to={`/details/${data.id}`}>опис</Link>  
       </div>
       <div className='link-holder' >
-         <div className='basket-link' onClick={() => console.log('ADD to basket')}>
+         <div className='basketIcon-link' onClick={() => addToBasket(data)}>
             додати у кошик 
          </div>
       </div>

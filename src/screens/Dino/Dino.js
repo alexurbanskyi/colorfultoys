@@ -4,11 +4,11 @@ import {dino} from '../../ToyData/ToyData.js'
 import './Dino.css'
 
 
-function Dino() {
+function Dino({setBasketList}) {
   return (
     <div className='dino'>
       {
-        dino.map((item) => <Card  key={item.id} data = {item}/>)
+        dino.map((item) => <Card  key={item.id} data = {item} setBasketList={setBasketList}/>)
       }
     </div>
   )

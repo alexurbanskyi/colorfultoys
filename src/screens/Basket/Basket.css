@@ -1,0 +1,23 @@
+.basket-title{
+   text-align: center;
+   font-size: 25px;
+   font-weight: 600;
+   margin: 20px 0;
+}
+.order-item{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin: 10px 0;
+}
+.order-image{
+   width: 120px;
+}
+.totalCoast{
+   text-align: end;
+   padding: 20px 50px 0 0;
+}
+.coast{
+   font-size: 30px;
+   font-weight: 800;
+}

@@ -5,10 +5,11 @@ import Header from '../Header/Header';
 import SideBar from '../SideBar/SideBar';
 import './Layout.css'
 
-function Layout() {
+function Layout({basketList}) {
+  console.log('BASKETLIST --->', basketList)
   return (
     <div className='main'>
-      <Header/>
+      <Header basketList={basketList}/>
       <div className='layout'>
           <SideBar/>
           <div className='outlet'>

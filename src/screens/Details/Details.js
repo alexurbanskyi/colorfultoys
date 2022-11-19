@@ -9,7 +9,7 @@ function Details() {
   const goBack = () => navigate(-1)
   
   const data = dataToy.find((item) => item.id === id)
-  console.log('data --->', data)
+ 
   return (
     <div className='details'>
       <div className='details-title'>{data.name}</div>
@@ -19,7 +19,7 @@ function Details() {
       <div className='details-size-title'>Розмір</div>
       <div className='details-size'>{data.size.width} x {data.size.hight}</div>
 
-      <button onClick={() => goBack()}>GO BACK!</button>
+      <button onClick={() => goBack()}>ДО КАТАЛОГУ</button>
     </div>
   )
 }
