@@ -8,6 +8,7 @@ function Card({data, setBasketList}) {
 
    function addToBasket(item){
       setBasketList((prev) => [...prev, {...item, pcs: pcs}])
+      setPcs(1)
    }
 
    return (

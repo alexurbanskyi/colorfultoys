@@ -1,6 +1,6 @@
 .sidebar{
    background-color: rgb(159, 161, 0);
-   padding: 20px;
+   padding: 8px;
    display: flex;
    flex-direction: column;
    align-items: center;
