@@ -79,7 +79,7 @@ export const dino = [
       hight: 25
     },
     discription: 'prity butterfly figure! Very interesting for your kid! ...',
-    price: 25,
+    price: 18,
   }
  ]
 

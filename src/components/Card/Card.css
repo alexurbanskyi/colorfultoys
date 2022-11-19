@@ -73,3 +73,9 @@
    font-weight: 800;
    cursor: pointer;
 }
+.item-price{
+   color: rgb(254, 254, 199);
+   font-size: 20px;
+   font-weight: 900;
+   padding: 10px 0 0 0;
+}

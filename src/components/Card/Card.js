@@ -32,6 +32,7 @@ function Card({data}) {
             додати у кошик 
          </div>
       </div>
+      <div className='item-price'>{data.price} грн</div>
    </div>
   )
 }
